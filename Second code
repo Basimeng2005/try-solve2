@@ -1,0 +1,32 @@
+def operation():
+    num1 =int(input("Entetr the first number"))
+    num2 = int(input("Entetr the second number"))
+    print(f"The summation is {num1+num2}")
+    print(f"The subtration is {num1-num2}")
+    print(num1*num2)
+    print(num1/num2)
+    print(num1%num2) 
+    print(num1//num2) # floor division
+#print(num1**num2)
+
+    # print(num1-num2)
+
+def num_spr():
+    num = input("Enter the number ")
+    first = num[1]
+    second = num[0]
+    print(f" The first number is {first} and the second number is {second}")
+
+def num_spr2():
+    num = int(input("Enter the number "))
+    first = num%10
+    second = num//10
+    print(f" The first number is {first} and the second number is {second}")
+
+def main():
+    
+    
+    colors =["BLACK"]
+    for color in colors:
+        print(color)
+main()
